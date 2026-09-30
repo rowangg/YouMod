@@ -233,7 +233,7 @@ jobs:
     
       - name: Clone YTUHD
         if: ${{ inputs.ytuhd }}
-        run: git clone --quiet --depth=1 --recurse-submodules https://github.com/PoomSmart/YTUHD.git
+        run: git clone --quiet --depth=1 --recurse-submodules https://github.com/rowangg/YTUHD.git
            
       - name: Clone Return-YouTube-Dislikes
         if: ${{ inputs.ryd }}
